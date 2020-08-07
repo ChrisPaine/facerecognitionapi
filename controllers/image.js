@@ -12,6 +12,7 @@ const handleApiCall = (req, res) => {
         res.json(data);
       })
       .catch((err) => res.status(400).json("unable to work with api"));
+      alert('Please enter a valid URL...')
   };
 
 const handleImage = (req, res, db) => {
